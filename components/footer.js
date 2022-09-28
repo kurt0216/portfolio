@@ -40,11 +40,7 @@ const Footer = () => {
             variant="ghost"
           />
         </Link> */}
-        <Link
-          href="https://github.com/yukiwadana"
-          title="GitHub"
-          isExternal
-        >
+        <Link href="https://github.com/yukiwadana" title="GitHub" isExternal>
           <IconButton
             aria-label="GitHub"
             icon="github"

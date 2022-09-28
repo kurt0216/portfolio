@@ -6,9 +6,7 @@ import {
   Flex,
   Stack,
   Box,
-  Icon,
   Link,
-  Divider,
 } from '@chakra-ui/core'
 
 import Timeline from '../components/timeline'
@@ -24,23 +22,23 @@ const Index = () => {
     light: 'black',
     dark: 'red.100',
   }
-  const yellowTextColor = {
-    light: 'black',
-    dark: 'yellow.100',
-  }
+  // const yellowTextColor = {
+  //   light: 'black',
+  //   dark: 'yellow.100',
+  // }
   const greenTextColor = {
     light: 'black',
     dark: 'green.100',
   }
 
-  const purpleColor = {
-    light: 'purple.600',
-    dark: 'purple.400',
-  }
-  const grayColor = {
-    light: 'gray.400',
-    dark: 'gray.400',
-  }
+  // const purpleColor = {
+  //   light: 'purple.600',
+  //   dark: 'purple.400',
+  // }
+  // const grayColor = {
+  //   light: 'gray.400',
+  //   dark: 'gray.400',
+  // }
   return (
     <Layout>
       <Stack
@@ -69,8 +67,8 @@ const Index = () => {
           </Heading>
           <Text mb={4} color={secondaryTextColor[colorMode]}>
             I enjoy feature development and working on products that matter! Now
-            that I've been curious about the blockchain technology and traing my
-            skills for future instustry. I wish I knew while working in this
+            that I've been curious about the blockchain technology and training
+            my skills for web3 aspect. I wish I knew while working in this
             industry.
             <Box as="ul" pt={2} pl={4} ml={2}>
               <Box as="li" pb={1}>
@@ -119,7 +117,7 @@ const Index = () => {
                 {
                   title: 'Freelancing for Newwit',
                   description:
-                    'I jumped into smart contracts development which was my short-term desire and developed governance and unitiy tokens and built bridged connecting EVM chains',
+                    'I jumped into smart contracts development which was my short-term desire and developed Utility tokens and in-game NFTs for socialFi and gamefi and built bridge connecting EVM chains.',
                   tags: {
                     warehouse_tab: 'https://twitter.com/NewwitApp',
                   },
@@ -129,7 +127,7 @@ const Index = () => {
                 {
                   title: 'Joined Onessus',
                   description:
-                    'In the end of 2021, I jumped into a NFT platform Development Studio; brought full-stack engineering to the table. Here I got to transfer novel concept to reality.',
+                    'In the end of 2021, I joined World Class dAPP Development Stuido; brought full-stack engineering for NFT staking platform. Here I got to transfer novel concept to reality.',
                   tags: {
                     warehouse_tab:
                       'https://www.youtube.com/channel/UCyZaZqRgYFdrgVFoB-qT-ag',
@@ -138,7 +136,7 @@ const Index = () => {
                 {
                   title: 'Joined KodaDot',
                   description:
-                    'Took my first frontend engineering to blockchain space; Here I got to develop the frontend of interoperable NFT marketplace on Kusama & Polkadot.',
+                    'Took my first frontend engineering to blockchain space; Here I got to develop the frontend of interoperable NFT marketplace on Kusama network.',
                   tags: {
                     warehouse_tab:
                       'https://www.youtube.com/channel/UCEULduld5NrqOL49k1KVjoA',
@@ -149,7 +147,7 @@ const Index = () => {
                 {
                   title: 'Joined Maryoku',
                   description:
-                    'I have experience large-scale and ambious product development',
+                    'Worked as a full stack engineer and developed large-scale and ambitious project which makes a marketplace for in-house administrative professionals who plan corporate events from sratch.',
                   tags: {
                     warehouse_tab: 'https://www.linkedin.com/company/262days/',
                   },
@@ -159,7 +157,7 @@ const Index = () => {
                 {
                   title: 'Joined Common-Services',
                   description:
-                    'Bring the product in the Shopify App marketplace',
+                    'Brought much competitive product into Shopify App marketplace which enables Shopify vendors to integrate their products and orders to Amazon marketplace',
                   tags: {
                     warehouse_tab: 'https://apps.shopify.com/amazon-3',
                   },
@@ -169,7 +167,7 @@ const Index = () => {
                 {
                   title: 'Joined Style Inc',
                   description:
-                    'Engaged in CV matching, Company internal program development.',
+                    'Engaged in developing in-house CV matching program for Agency ',
                 },
               ],
             }}

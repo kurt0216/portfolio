@@ -10,29 +10,30 @@ export async function getStaticProps() {
     {
       title: 'Newwit',
       description:
-        'Structured and booted sidechain with 4 validator nodes. Developed smart contracts on sidechain for governance, utility and NFT token and NFT marketplace. Built bridge connecing EVM chains for transfering tokens',
+        'Installed and run sidechain which has 4 validator nodes for staging. Developed and deployed smart contracts for utility tokens and in-game NFTs and NFT marketplace using Solidity and Hardhat. Write typescript code for Unit test. Built bridge connecing EVM chains for transfering tokens using ChainBridge.',
       href: 'https://newwit.com/',
+      github: 'https://github.com/yukiwadana/gamelFi',
       thumbnail: '/images/newwit.png',
-      size: '',
       tags: [
         'Sidechain',
         'Solidity',
         'Typescript',
-        'Ethers.js',
+        'EthersJs',
         'Hardhat',
         'Smart contract',
         'NFT',
+        'ERC20',
         'ERC721A',
         'EVM',
+        'ChainBridge',
       ],
     },
     {
       title: 'Whenstaking',
       description:
-        'Developed NFT platform which implemented NFT staking protocol. Upgrade frontend to react.js to next.js for SSR and optimizing. Compressed high dimension NFT assets using Node.js, AWS lambda, S3, API gateway',
+        'Developed NFT platform which implements NFT staking protocol in Wax blockchain. Update frontend from react.js to next.js for SSR and optimizing. Compressed high dimension NFT assets using Node.js, AWS lambda, S3, API gateway',
       href: 'https://whenstaking.com/',
       thumbnail: '/images/whenstaking.png',
-      size: '',
       tags: [
         'ReactJs',
         'NextJs',
@@ -49,20 +50,18 @@ export async function getStaticProps() {
     {
       title: 'Kodadot',
       description:
-        'Was involved in the frontend development of NFT marketplace which is operating on Kusama network. Developed collection, gallery and detail pages and updated filter functions. Visualized the history of floor and sold price of collection',
+        'Involved in the frontend development of NFT marketplace which is operating on Kusama network. Developed collection, gallery and detail pages and updated filter functions. Visualized the history of floor and sold price of collection',
       href: 'https://kodadot.com/',
       thumbnail: '/images/kodadot.png',
-      size: '',
       tags: ['Vue', 'Vuex', 'Typescript', 'Chart.js', 'GraphQL', 'Kusama'],
       github: 'https://github.com/kodadot/nft-gallery',
     },
     {
       title: 'Maryoku',
       description:
-        'Developed planner and vendor system of event marketplace. Designed and built backend using Grooy & Grails and MongoDB and made RESTful APIs for data integration. Engaged in developing frontend development using Vue. Structure CI/CD on GitLab',
+        'Developed planner and vendor system of event planning platform. Designed and developed API backend using Grooy & Grails and MongoDB. Engaged in developing frontend development using Vue and Vuex. Developed bitbucket pipelines, and infra using AWS Lightsail instances with Nginx. Assigned tasks to junior developers and review code.',
       href: 'https://maryoku.com/',
       thumbnail: '/images/maryoku.png',
-      size: '',
       tags: [
         'Vue',
         'Vuex',
@@ -79,10 +78,9 @@ export async function getStaticProps() {
     {
       title: 'Amazon Integration APP',
       description:
-        'Developed Shopify APP for integrating products and orders on Amazon marketplace with Shoify Store. ',
+        'Developed Shopify APP for integrating products and orders from Amazon marketplace to Shoify Store. ',
       href: 'https://apps.shopify.com/amazon-3',
       thumbnail: '/images/amazon.png',
-      size: '',
       tags: [
         'React.js',
         'Redux',

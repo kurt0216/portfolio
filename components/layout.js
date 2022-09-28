@@ -112,11 +112,11 @@ const Layout = ({ children }) => {
               Product
             </Button>
           </NextLink>
-          <NextLink href="/blog" passHref>
+          {/* <NextLink href="/blog" passHref>
             <Button as="a" variant="ghost" p={[1, 4]}>
               Blog
             </Button>
-          </NextLink>
+          </NextLink> */}
           <IconButton
             aria-label="Toggle dark mode"
             ml={2}
