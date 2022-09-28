@@ -1,6 +1,6 @@
 module.exports = {
   target: 'serverless',
-  webpack: (config, { dev }) => {
+  webpack: (config, { dev, isServer }) => {
     if (dev) {
       config.module.rules.push({
         test: /\.js$/,
@@ -13,6 +13,12 @@ module.exports = {
         },
       })
     }
+    if (!isServer) {
+      config.node = {
+        fs: 'empty'
+      }
+    }
+    
     return config
   },
 }
