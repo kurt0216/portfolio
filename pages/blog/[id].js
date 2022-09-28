@@ -19,10 +19,10 @@ import { BlogComponents } from '../../components/blogComponents'
 import { getAllBlogIds, getBlogData } from '../../lib/blog'
 
 const editUrl = (slug) =>
-  `https://github.com/michael-dev-0226/personal/edit/main/blogs/${slug}.md`
+  `https://github.com/yukiwadana/portfolio/edit/main/blogs/${slug}.md`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/intent/tweet?text=${encodeURIComponent(
-    `https://michael-martinez.me/blog/${slug}`
+    `https://yukiwadana.me/blog/${slug}`
   )}`
 
 export default function Post({ postData }) {
@@ -100,12 +100,12 @@ export default function Post({ postData }) {
             <Flex align="center">
               <Avatar
                 size="xs"
-                name="Michael Martinez"
+                name="Yuki Wadana"
                 src="/images/profile.jpeg"
                 mr={2}
               />
               <Text fontSize="sm" color={textColor[colorMode]}>
-                {'Michael Martinez / '}
+                {'Yuki Wadana / '}
                 <Date dateString={postData.date} />
               </Text>
             </Flex>

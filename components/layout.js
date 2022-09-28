@@ -12,8 +12,8 @@ import {
 } from '@chakra-ui/core'
 import Footer from './footer'
 
-const site = 'http://www.michael-martinez.me'
-const siteTitle = "Michael's Blog"
+const site = 'http://www.yukiwadana.me'
+const siteTitle = "Yuki's Blog"
 const siteDescription =
   'Read articles about the magical field of software engineering'
 const sitePreview = '/images/preview.png'
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <title>{siteTitle}</title>
-        <meta name="title" content="Michael's Blog" />
+        <meta name="title" content="Yuki's portfolio" />
         <meta
           name="description"
           content="Read articles about the magical field of software engineering"

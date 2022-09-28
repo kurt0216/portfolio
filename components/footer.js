@@ -27,7 +27,7 @@ const Footer = () => {
         <Text>Made with ❤️ by Yuki</Text>
       </Flex>
       <Flex justify="center" mb={4}>
-        <Link
+        {/* <Link
           href="https://twitter.com/jermainecheng"
           title="Twitter"
           isExternal
@@ -39,9 +39,9 @@ const Footer = () => {
             color={redColor[colorMode]}
             variant="ghost"
           />
-        </Link>
+        </Link> */}
         <Link
-          href="https://github.com/michael-dev-0226"
+          href="https://github.com/yukiwadana"
           title="GitHub"
           isExternal
         >
@@ -54,7 +54,7 @@ const Footer = () => {
           />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/michael-martinez-b3b986237/"
+          href="https://www.linkedin.com/in/yuki-wadana-5262b41b8/"
           title="LinkedIn"
           isExternal
         >
@@ -66,7 +66,7 @@ const Footer = () => {
             variant="ghost"
           />
         </Link>
-        <Link href="mailto:solomon226@hotmail.com" title="Email" isExternal>
+        <Link href="mailto:yukiwadana@outlook.com" title="Email" isExternal>
           <IconButton
             aria-label="Email"
             icon="mail"
