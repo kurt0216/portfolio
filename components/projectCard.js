@@ -14,10 +14,9 @@ import {
 const ProjectCard = ({
   title,
   description,
-  href,
+  website,
   github,
   thumbnail,
-  size,
   tags,
 }) => {
   const { colorMode } = useColorMode()
@@ -44,7 +43,7 @@ const ProjectCard = ({
     dark: 'blue.200',
   }
 
-  const colorSchemes = ['green', 'yellow', 'red', 'purple', 'gray']
+  const skills = tags ? tags.split(',') : []
 
   return (
     <Box
@@ -83,16 +82,18 @@ const ProjectCard = ({
           {description}
         </Text>
         <Box display={{ md: 'flex' }} alignItems="center">
-          <Flex wrap="wrap">
-            {tags.map((frontMatter, index) => (
-              <Badge transform="lowercase" ml="1">
-                {frontMatter}
-              </Badge>
-            ))}
-          </Flex>
+          {skills && skills.length && (
+            <Flex wrap="wrap">
+              {skills.map((frontMatter, index) => (
+                <Badge transform="lowercase" ml="1">
+                  {frontMatter}
+                </Badge>
+              ))}
+            </Flex>
+          )}
           <Flex justifyContent={'center'} ml="auto">
-            {href && (
-              <Link href={href} isExternal>
+            {website && (
+              <Link href={website} isExternal>
                 <IconButton
                   aria-label="Website"
                   icon="website"

@@ -1,0 +1,21 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
+}
+
+datasource db {
+  provider             = "mysql"
+  url                  = env("DATABASE_URL")
+  // shadowDatabaseUrl    = env("SHADOW_DATABASE_URL")
+  referentialIntegrity = "prisma"
+}
+
+model product {
+  id          Int     @id @default(autoincrement())
+  title       String  @db.VarChar(256)
+  description String  @db.Text
+  thumbnail   String  @db.VarChar(256)
+  website     String  @db.VarChar(256)
+  github      String? @db.VarChar(256)
+  tags        String  @db.VarChar(512)
+}
