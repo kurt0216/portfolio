@@ -122,6 +122,14 @@ const Index = () => {
                     warehouse_tab: 'https://twitter.com/NewwitApp',
                   },
                 },
+                {
+                  title: 'Freelancing for Solchicks',
+                  description:
+                    'Developed Solana programs for NFT protocols like breeding, staking and marketplace. Brought bridge to transfer governance tokens and NFTs from Solana to EVM chain',
+                  tags: {
+                    warehouse_tab: 'https://twitter.com/NewwitApp',
+                  },
+                },
               ],
               '2021': [
                 {

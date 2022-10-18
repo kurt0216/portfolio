@@ -13,7 +13,7 @@ import {
 import Footer from './footer'
 
 const site = 'http://www.yukiwadana.me'
-const siteTitle = "Yuki's Blog"
+const siteTitle = "Yuki's Portfolio"
 const siteDescription =
   'Read articles about the magical field of software engineering'
 const sitePreview = '/images/preview.png'

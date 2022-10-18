@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import { useColorMode, Heading, Flex, Stack, Button } from '@chakra-ui/core'
 import Layout from '../../components/layout'
 import ProjectCard from '../../components/projectCard'
-import prisma from '../../lib/prisma'
+// import prisma from '../../lib/prisma'
+import { products } from '../../prisma/data'
 
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const allProjectsData = await prisma.product.findMany()
-  
+  // const allProjectsData = await prisma.product.findMany()
+  const allProjectsData = products
 
   // By returning { props: posts }, the Blog component
   // will receive `posts` as a prop at build time
